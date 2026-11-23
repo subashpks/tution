@@ -423,7 +423,7 @@ export interface NewStudentInput {
 export interface InviteGuardianInput {
   /** A single child, used from the student screen. */
   studentId?: string;
-  /** One guardian for several children, used from People. */
+  /** One guardian for several children, used from Parents. */
   studentIds?: string[];
   name: string;
   phone: string;
